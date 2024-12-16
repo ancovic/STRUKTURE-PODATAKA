@@ -1,0 +1,3 @@
+﻿  VJEZBE_7.c
+C:\Users\Korisnik\Desktop\STRUKTURE-PODATAKA\VJEZBE 7\VJEZBE_7.c(242,16): warning C4047: '=': 'dirPosition' differs in levels of indirection from 'int'
+  VJEZBE 7.vcxproj -> C:\Users\Korisnik\Desktop\STRUKTURE-PODATAKA\VJEZBE 7\x64\Debug\VJEZBE 7.exe
