@@ -1,0 +1,227 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Korisnik/Desktop/STRUKTURE-PODATAKA/VJEZBE_8/VJEZBE_8.c"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 3,
+                  "endLine": 48,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Korisnik/Desktop/STRUKTURE-PODATAKA/VJEZBE_8/VJEZBE_8.c"
+                },
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 4,
+                  "endLine": 54,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Korisnik/Desktop/STRUKTURE-PODATAKA/VJEZBE_8/VJEZBE_8.c"
+                },
+                "region": {
+                  "startLine": 82,
+                  "startColumn": 4,
+                  "endLine": 82,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Korisnik/Desktop/STRUKTURE-PODATAKA/VJEZBE_8/VJEZBE_8.c"
+                },
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 4,
+                  "endLine": 93,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'new'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Korisnik/Desktop/STRUKTURE-PODATAKA/VJEZBE_8/VJEZBE_8.c"
+                },
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 2,
+                  "endLine": 116,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "create",
+                  "decoratedName": "create",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Korisnik/Desktop/STRUKTURE-PODATAKA/VJEZBE_8/VJEZBE_8.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "'new' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Korisnik/Desktop/STRUKTURE-PODATAKA/VJEZBE_8/VJEZBE_8.c"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'new' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34123.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Korisnik/Desktop/STRUKTURE-PODATAKA/VJEZBE_8/VJEZBE_8.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "46a7396eb59152c7f52e0566dd14f2a1e1fbff96d70b42d1393060f87fd44c7b"
+          }
+        }
+      ]
+    }
+  ]
+}

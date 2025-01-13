@@ -227,6 +227,7 @@ int cmdPrompt(dirPosition current, stackPosition stackHead) {
 	do {
 		fgets(userInput, MAX_LENGTH, stdin);
 		sscanf(userInput, "%s %s", cmd, dirName);
+
 		if (!strcmp(cmd, "md"))
 		{
 			current = makeDir(current, dirName);
