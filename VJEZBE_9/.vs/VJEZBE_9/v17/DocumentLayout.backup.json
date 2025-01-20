@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\source\\repos\\VJEZBE_9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2367C3D-C7AE-47B5-B20C-5A23CA2E736B}|VJEZBE_9.vcxproj|C:\\Users\\Korisnik\\source\\repos\\VJEZBE_9\\VJEZBE9.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2367C3D-C7AE-47B5-B20C-5A23CA2E736B}|VJEZBE_9.vcxproj|solutionrelative:VJEZBE9.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VJEZBE9.c",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\VJEZBE_9\\VJEZBE9.c",
+              "RelativeDocumentMoniker": "VJEZBE9.c",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\VJEZBE_9\\VJEZBE9.c",
+              "RelativeToolTip": "VJEZBE9.c",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-18T19:14:56.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Beograd,1659440
+Nis,260237
+Kragujevac,180252
+Leskovac,148206
+Subotica,141554
